@@ -1,4 +1,4 @@
-> Minimal [react](https://reactjs.org/) project that consumes a [JWT authentication backend](https://github.com/brianbianchi/auth-server)
+> Minimal [react](https://reactjs.org/) project that consumes a [JWT authentication backend](https://github.com/brianbianchi/auth-server).
 
 ## Usage
 

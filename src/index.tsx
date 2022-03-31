@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
 
-axios.defaults.baseURL = process.env.API_URL || 'http://localhost:8000/api/';
+axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/';
 axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem('accessToken')}`;
 
 // request interceptor to add the auth token header to requests

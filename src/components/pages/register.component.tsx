@@ -126,6 +126,7 @@ export default class Register extends Component<IProps, IState> {
                         type="password"
                         className="form-control"
                         id="passwordInput"
+                        autoComplete="new-password"
                         value={this.state.password}
                         onChange={this.handleChange('password')}
                     />
@@ -138,6 +139,7 @@ export default class Register extends Component<IProps, IState> {
                         type="password"
                         className="form-control"
                         id="confirmPasswordInput"
+                        autoComplete="new-password"
                         value={this.state.confirmPassword}
                         onChange={this.handleChange('confirmPassword')}
                     />

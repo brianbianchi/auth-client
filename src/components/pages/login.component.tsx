@@ -89,20 +89,24 @@ export default class Login extends Component<IProps, IState> {
           <input
             type="email"
             className="form-control"
+            name="emailInput"
             id="emailInput"
+            autoComplete="username"
             placeholder="name@example.com"
             value={this.state.email}
             onChange={this.handleChange("email")}
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="passwordInput" className="form-label">
+          <label htmlFor="current-password" className="form-label">
             Password
           </label>
           <input
             type="password"
             className="form-control"
-            id="passwordInput"
+            name="current-password"
+            id="current-password"
+            autoComplete="current-password"
             value={this.state.password}
             onChange={this.handleChange('password')} />
         </div>
